@@ -47,7 +47,7 @@ function AuthPage() {
                 }
             };
         }
-        fetch('http://localhost:3000/graphql', {
+        fetch('https://eventbook-rxhq.onrender.com/graphql', {
             method: 'POST',
             body: JSON.stringify(requestBody),
             headers: {
